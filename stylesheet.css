@@ -1,0 +1,92 @@
+html {
+    color: antiquewhite;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    margin: 45px auto 0 auto;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+    font-size: 1rem;
+    line-height: 1.3em;
+}
+
+#main {
+    width: 50%;
+    height: 100%;
+    background: rgba(28, 28, 104, 0.8);
+    margin: 30px 15px auto 25%;
+    padding: 10px;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+#survey-form {
+    margin: 30px auto 10px 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=number] {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+select {
+    color: rgb(110, 110, 110);
+}
+
+.form-control {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid antiquewhite;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+}
+
+.radio-control,
+.check-control {
+    display: inline-block;
+    margin-right: 0.625rem;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button {
+    background-color: teal;
+    font-size: 100%;
+    color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    margin: 5px auto 0 auto;
+    border: 5px solid teal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#email :invalid {
+    box-shadow: 0 0 5px 1px red;
+}
